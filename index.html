@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <title>Amogh Sabarwal</title>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div>Amogh Sabarwal</div>
+            <nav>
+                <a href="https://www.behance.net/deadzolt">Behance</a>
+                <a href="https://dribbble.com/amoghsabarwal">Dribble</a>
+                <a href="https://www.youtube.com/@deadzolt477">Youtube</a>
+            </nav>
+        </header>
+        <main>
+            <div class="intro">
+                <h1><span class="word">i</span> <span class="word">craft</span> <span class="word highlight">experiences</span> <span class="word">and</span></h1>
+                <h1><span class="word highlight">cook</span> <span class="word">awesome</span> <span class="word">designs.</span></h1>
+            </div>
+            <div id="blur-overlay"></div>
+            <div id="vimeo-container" class="hidden">
+                <iframe src="https://player.vimeo.com/video/1002421821?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&background=1" width="420" height="747" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Showreel 001"></iframe>
+            </div>
+            <div class="content">
+                <div class="time" id="current-time"></div>
+                <div class="chat-container">
+                    <p class="message left">Hey there! I'm Amogh, a designer based in Mumbai. Currently, I'm diving deep into communication design at ISDI.</p>
+                    <p class="message right">Hi Amogh! I've been looking at your portfolio. Your work is really interesting. Can you tell me more about your design approach?</p>
+                    <p class="message left">Thanks for checking out my work! My approach is all about crafting experiences that resonate. What you're seeing in my portfolio is more than just a compilation - it's a visual journey through my creative endeavors.</p>
+                    <p class="message right">That sounds intriguing. I'm working on a project that could use a fresh perspective. How do you usually collaborate with clients?</p>
+                    <p class="message left">I'm always excited about new projects! I believe in close collaboration, starting with understanding your vision. We could discuss more over a call or even coffee (my treat!). Feel free to book a time via Calendly, and we can explore how to bring your ideas to life.</p>
+                    <p class="message loading"><span class="dot"></span><span class="dot"></span><span class="dot"></span></p>
+                </div>
+                <button onclick="window.open('https://calendly.com/amoghsabarwal', '_blank')">Book a call on Calendly</button>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
